@@ -20,8 +20,12 @@
             </div>
         </form>
     </div>
+    
     <div class="d-flex aligns-items-center justify-content-center">
         <% if(typeof (reportOne) !="undefined" ){ %>
+            <% if(reportOne.length==0 ){ %>
+                <p>This search is not in the database</p>
+            <% } %>
             <% for(var i=0; i < reportOne.length; i++){ %>
         <div class="col-sm-6 card mt-5 mx-2" style="width: 18rem;">
             <h5 class="card-title text-center">
