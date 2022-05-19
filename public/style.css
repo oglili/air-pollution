@@ -1,0 +1,24 @@
+body {
+    background: aquamarine url('air_pollution.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.width {
+    width:80%;
+}
+.center {
+    text-align: center;
+    margin: 10px auto;
+}
+.image-container {
+    height: 180px;
+}
+.image-container img {
+    height: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .width {
+        width: 50%;
+    }
+}
