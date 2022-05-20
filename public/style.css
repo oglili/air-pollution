@@ -15,7 +15,12 @@ body {
 .image-container img {
     height: 100%;
 }
-
+.danger {
+    color: red;
+    border: 2px solid salmon;
+    padding: 3px;
+    margin: 2px 0;
+}
 
 @media screen and (min-width: 768px) {
     .width {
