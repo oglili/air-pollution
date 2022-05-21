@@ -10,17 +10,9 @@
 // module.exports = db;
 
 
-// const Sequelize = require('sequelize');
-// const db = new Sequelize ('pollution', 'root', '', {
-//     host:'127.0.0.1',
-//     dialect:'mysql'
-// });
-
-// module.exports = db;
-
 const Sequelize = require('sequelize');
-const db = new Sequelize ('heroku_7d4cc3976438d6a', 'bf83118541a823', '5b220469', {
-    host:'eu-cdbr-west-02.cleardb.net',
+const db = new Sequelize ('pollution', 'root', '', {
+    host:'127.0.0.1',
     dialect:'mysql'
 });
 
